@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-eqiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+<body>
+    <header class="page-title">Coding Quiz Challenge</header>
+    <div class="grid-start">
+        <div>
+            <p>Click the "Start" button to begin.</p>
+            <button id="start" class="button">Start</button>
+            <div class="timer">
+                <!-- Set timer to 2:00 minutes -->
+                Timer: <span id="time"> 2:00 </span>minutes
+            </div>
+        </div>
+    </div>
+    
+    <!-- The actual Quiz -->
+    <div class="grid">
+        <div id="quiz">
+            <p id="question"></p>
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+                <div id="response" class="response">Answer: </div>
+            </div>
+            </div>
+        </div>
+        <div id="result" class="resultContainer" style="display: none;">
+        </div>
+        <button id="replay" class="button" >Restart</button>
+        
+        <!--Footer - 2021 Made with love by Marcus Osby -->
+        <footer>&copy; 2021 Made with ❤️ love by Marcus Osby</footer>
+        <script src="./assets/js/script.js"></script>
+</body>
+
+
+
+</html>

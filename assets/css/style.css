@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary: #8c031a;
+    --second: #01068a;
+    --third: #017e8a;
+    font-size: 22px;
+}
+
+body {
+    background-color: #afb2b3;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    margin: 15px;
+
+}
+
+header {
+    background: var(--third);
+    padding: 30px 30px;
+    border-bottom: 5px solid var (--second);
+    text-align: center;
+}
+
+footer {
+    background: var(--third);
+    width: 100%
+    color: var(--second);
+    font-size: 16px;
+    position: --webkit-sticky;
+    padding: 10px;
+    bottom: 0;
+    border-top: 3px solid var(--second);
+}
+
+.result {
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.timer {
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+}
+
+.button {
+    outline: var(--second) solid 2px;
+    border: var(--second);
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 15px;
+    background: var(--third);
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    width: 70px;
+}
+
+.button:hover {
+    background-color: #b7f2f7;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin: 20px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #017e8a;
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid var(--second);
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 10px 5px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: violet;
+} 
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}

@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #afb2b3;
+    background-color: white;
     color: black;
     margin: 0;
     padding: 0;
@@ -25,19 +25,17 @@ p {
 header {
     background: var(--third);
     padding: 30px 30px;
-    border-bottom: 5px solid var (--second);
+    border-bottom: 5px solid var(--second);
     text-align: center;
 }
 
-footer {
-    background: var(--third);
+.footer {
     width: 100%
-    color: var(--second);
-    font-size: 16px;
+    font-size: 8px;
     position: --webkit-sticky;
     padding: 10px;
     bottom: 0;
-    border-top: 3px solid var(--second);
+    
 }
 
 .result {

@@ -11,7 +11,7 @@ If a user selects the wrong answer then time will be decreased.
 
 ## Website
 
-((INSERT LINK FOR DEPLOYMENT))
+https://osbym.github.io/module4-challenge-quiz/
 
 ## User Story
 
@@ -47,4 +47,4 @@ THEN I can save my initials and score
 
 ## Mock Up
 
-((INSERT PICTURE FOR MOCK-UP))
+![image](https://user-images.githubusercontent.com/87884472/132162592-e659921a-5712-40ac-a13a-bee9e787ee9e.png)

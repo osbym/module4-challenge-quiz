@@ -23,6 +23,49 @@ var questions = [
     ),
 
     new Question(
-        
+        "3. Which tag is an extention to HTML that can enclose any number of JavaScript statements?",
+        ["<SCRIPT>",
+        "<BODY>", "<HEAD>",
+        "<TITLE>"],
+        "<SCRIPT>"
+    ),
+
+    new Question(
+        "4. Which of the following is not considered a JavaScript operator?",
+        ["new",
+            "this",
+                "delete",
+                "typeof"],
+                "this"
+    ),
+
+    new Question(
+        "5. Which of the following best describes JavaScript?",
+        ["a low-level programming language.",
+            "a scripting language precompiled in the browser.",
+            "a compiled scripting language",
+            "an object-oriented scripting language"],
+            "an object-oriented scripting language"
+    ),
+
+    new Question(
+        "6. Which statement tests for a specific condition",
+        ["Select",
+            "If",
+                "Switch",
+                    "For"],
+                    "If"
+    ),
+    
+    new Question(
+        "7. Which answer best describe what JavaScript entities start and and end with?",
+        ["Semicolon, colon",
+            "Semicolon, Ampersand",
+                "Ampersand, colon",
+                    "Ampersand, semicolon"],
+                    "Ampersand, semicolon"
+    
+    
+    ]
     )
 ]

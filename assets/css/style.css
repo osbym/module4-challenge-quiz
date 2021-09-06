@@ -30,8 +30,8 @@ header {
 }
 
 .footer {
-    width: 100%
-    font-size: 8px;
+    width: 100%;
+    font-size: 4px;
     position: --webkit-sticky;
     padding: 10px;
     bottom: 0;

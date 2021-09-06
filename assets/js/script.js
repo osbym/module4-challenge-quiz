@@ -76,7 +76,7 @@ function startTimer() {
     var min = timeArray[0];
     var sec = checkSecond((timeArray[1] - 1));
     if (sec == 59) {
-        min = min -1
+        min = min - 1
     }
 
     if (min < 0) {
@@ -87,7 +87,7 @@ function startTimer() {
 
     document.getElementById('time').innerHTML = min + ":" + sec;
 
-    var timeRef = setTimeout(startTimer, 1000);
+    var timerRef = setTimeout(startTimer, 1000);
 
 }
 

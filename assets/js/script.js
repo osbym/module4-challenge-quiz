@@ -166,7 +166,7 @@ function populate() {
         var choices = quiz.getQuestionIndex().choices;
         for(var i =0; i < choices.length; i++) {
             var quesEl = document.getElementById("choice"+i);
-            questionEl.innerHTML = choices[i];
+            quesEl.innerHTML = choices[i];
             guess("btn" + i, choices[i]);
         }
       }

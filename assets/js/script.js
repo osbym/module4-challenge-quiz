@@ -123,7 +123,7 @@ function stopTimer () {
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
-    this.questionIndex =0;
+    this.questionIndex = 0;
 }
 
 Quiz.prototype.getQuestionIndex = function () {
@@ -166,7 +166,7 @@ function populate() {
         quesEl.innerHTML = quiz.getQuestionIndex().text;
 
         var choices = quiz.getQuestionIndex().choices;
-        for(var i =0; i < choices.length; i++) {
+        for(var i = 0; i < choices.length; i++) {
             var quesEl = document.getElementById("choice"+i);
             quesEl.innerHTML = choices[i];
             guess("btn" + i, choices[i]);
